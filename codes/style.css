@@ -1,0 +1,70 @@
+
+        div{
+            width: 320px;
+            border: 1px solid black;
+            padding: 50px;
+            border-radius: 10px;
+            position: relative;
+            left: 500px;
+           
+        }
+        body{
+        overflow-x: hidden;
+        }
+        h2{
+            text-transform: capitalize;
+
+        }
+        h4{
+            text-transform: capitalize;
+        }
+        input{
+            padding: 10px;
+            width: 20vw;
+            border-radius: 10px;
+        }
+        button{
+            padding: 10px;
+            width: 20vw;
+            background-color: yellow;
+            color: black;
+            text-transform: capitalize;
+            font-weight: bolder;
+            font-size: large;
+            border-radius: 10px;
+
+        }
+        a{
+            text-transform: capitalize;
+
+        }
+    /* Add this media query at the end of your style.css */
+@media (max-width: 768px) {
+    div {
+        width: 80% !important;
+        left: 7% !important;
+        padding: 30px !important;
+    }
+    
+    input, button {
+        width: 80% !important;
+    }
+    
+    img {
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+    }
+    
+    span[style*="left: 580px"] {
+        left: 0 !important;
+        display: block;
+        text-align: center;
+        margin-top: 5px;
+    }
+    
+    p[style*="left: 510px"] {
+        left: 0 !important;
+        text-align: center;
+        width: 100%;
+    }
+}
